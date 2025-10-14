@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const ComposantSurvole = ({ couleur = '#000000' }) => {
+const ComposantSurvoleAleat = ({ couleur = '#000000' }) => {
   const [color, setColor] = useState(couleur);
 
   // Fonction qui génère une couleur aléatoire
@@ -27,4 +27,4 @@ const ComposantSurvole = ({ couleur = '#000000' }) => {
   );
 };
 
-export default ComposantSurvole;
+export default ComposantSurvoleAleat;
