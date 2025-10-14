@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const ComposantSurvole = ({ couleur = 'red' }) => {
+const Composant = ({ couleur = 'red' }) => {
   const [color, setColor] = useState(couleur);
 
 
@@ -24,4 +24,4 @@ const ComposantSurvole = ({ couleur = 'red' }) => {
   );
 };
 
-export default ComposantSurvole;
+export default Composant;
