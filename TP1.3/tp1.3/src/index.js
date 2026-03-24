@@ -5,7 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Composant from './composant/Composant.js';
 import ComposantSurvole from './composant/ComposantSurvole.js'
-import ComposantSurvole from './composant/ComposantSurvole.js'
 import ComposantSurvoleAleat from './composant/ComposantSurvoleAleat.js'
 
 
