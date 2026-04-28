@@ -1,15 +1,12 @@
 import React, { useState } from 'react';
 
 function FormulaireConnection() {
-    // On crée deux états pour stocker la saisie
     const [login, setLogin] = useState("");
     const [mdp, setMdp] = useState("");
 
-    // La condition de l'exercice : est-ce que le mdp est différent de 1234 ?
-    // On vérifie aussi que le champ n'est pas vide pour ne pas que ce soit rouge au démarrage
+
     const estMauvaisMdp = mdp !== "" && mdp !== "1234";
 
-    // On prépare le style dynamique
     const styleDuComposant = {
         backgroundColor: estMauvaisMdp ? 'red' : 'white',
         color: estMauvaisMdp ? 'white' : 'black',
@@ -42,7 +39,6 @@ function FormulaireConnection() {
                 />
             </div>
 
-            {/* Petit message d'aide si c'est rouge */}
             {estMauvaisMdp && <p><strong>Attention : Mot de passe incorrect !</strong></p>}
         </div>
     );
